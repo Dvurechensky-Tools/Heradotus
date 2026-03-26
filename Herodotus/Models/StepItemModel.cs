@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://dvurechensky.pro/
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 25 марта 2026 10:15:50
- * Version: 1.0.147
+ * Last Updated: 26 марта 2026 10:06:02
+ * Version: 1.0.148
  */
 
 using Prism.Mvvm;
