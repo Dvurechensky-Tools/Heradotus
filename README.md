@@ -9,123 +9,137 @@
     <img src="https://shields.dvurechensky.pro/badge/Markdown-Real%20Time%20Preview-orange?logo=markdown&logoColor=white"> 
     <img src="https://shields.dvurechensky.pro/badge/Costura-Fody%20Packager-lightgrey?logo=packagist&logoColor=white"> 
   </p> 
-  <h3 align="center">Ваш <span style="color:#F5F752;">личный</span> конструктор сценариев для <span style="color:#a5F751;">презентаций</span> и <span style="color:#15F752;">демонстраций</span></h3>
+  <h3 align="center">Your <span style="color:#F5F752;">personal</span> scenario builder for <span style="color:#a5F751;">presentations</span> and <span style="color:#15F752;">demonstrations</span></h3>
 </p>
 
-- [🎯 Что это такое?](#-что-это-такое)
-- [](#)
-- [🚀 Возможности](#-возможности)
-  - [✨ Создание сценариев](#-создание-сценариев)
-  - [📋 Управление этапами](#-управление-этапами)
-  - [🎮 Удобный интерфейс](#-удобный-интерфейс)
-- [🛠️ Технологии](#️-технологии)
-- [📦 Установка и запуск](#-установка-и-запуск)
-- [🎮 Как использовать?](#-как-использовать)
-  - [Создание сценария:](#создание-сценария)
-  - [Просмотр сценария:](#просмотр-сценария)
-- [💡 Идеи для применения](#-идеи-для-применения)
-- [🎨 Почему Herodotus?](#-почему-herodotus)
-- [🤝 Обратная связь](#-обратная-связь)
+<div align="center" style="margin: 20px 0; padding: 10px; background: #1c1917; border-radius: 10px;">
+  <strong>🌐 Language: </strong>
+  
+  <a href="./README.ru.md" style="color: #F5F752; margin: 0 10px;">
+    🇷🇺 Russian
+  </a>
+  | 
+  <span style="color: #0891b2; margin: 0 10px;">
+    ✅ 🇺🇸 English (current)
+  </span>
+</div>
 
 ---
 
-## 🎯 Что это такое?
+- [🎯 What is it?](#-what-is-it)
+- [](#)
+- [🚀 Features](#-features)
+  - [✨ Scenario Creation](#-scenario-creation)
+  - [📋 Stage Management](#-stage-management)
+  - [🎮 User-Friendly Interface](#-user-friendly-interface)
+- [🛠️ Technologies](#️-technologies)
+- [📦 Installation and Launch](#-installation-and-launch)
+- [🎮 How to Use?](#-how-to-use)
+  - [Creating a scenario:](#creating-a-scenario)
+  - [Viewing a scenario:](#viewing-a-scenario)
+- [💡 Use Cases](#-use-cases)
+- [🎨 Why Herodotus?](#-why-herodotus)
+- [🤝 Feedback](#-feedback)
 
-`Herodotus` — это удобный инструмент для создания и управления сценариями презентаций! ✨
+---
 
-Представьте, что вы готовите демонстрацию продукта, обучающий материал или просто хотите структурировать свои идеи — `Herodotus` поможет вам создать пошаговый сценарий, где каждый этап можно подробно описать с помощью Markdown.
+## 🎯 What is it?
 
-Название `Herodotus` — это дань уважения `отцу истории` Геродоту, ведь ваши сценарии будут так же хорошо структурированы и задокументированы! 🏛️
+`Herodotus` is a convenient tool for creating and managing presentation scenarios! ✨
+
+Imagine you're preparing a product demo, educational material, or simply want to structure your ideas — `Herodotus` helps you create a step-by-step scenario where each stage can be described in detail using Markdown.
+
+The name `Herodotus` is a tribute to the `father of history`, as your scenarios will be just as well-structured and documented! 🏛️
 
 ## ![alt text](docs/HeradotusInfo.gif)
 
-## 🚀 Возможности
+## 🚀 Features
 
-### ✨ Создание сценариев
+### ✨ Scenario Creation
 
-- **🎨 Простой конструктор** — создавайте сценарии в пару кликов
-- **📝 Неограниченное количество этапов** — добавляйте столько шагов, сколько нужно
-- **🏷️ Удобное наименование** — давайте понятные названия своим сценариям
+- **🎨 Simple builder** — create scenarios in just a few clicks
+- **📝 Unlimited stages** — add as many steps as you need
+- **🏷️ Convenient naming** — give clear and meaningful names to your scenarios
 
-### 📋 Управление этапами
+### 📋 Stage Management
 
-- **📄 Markdown-описания** — форматируйте текст как профессионал
-- **👀 Предпросмотр в реальном времени** — сразу видите, как будет выглядеть описание
-- **✏️ Редактирование на лету** — меняйте содержимое этапов без перезагрузки
+- **📄 Markdown descriptions** — format text like a pro
+- **👀 Real-time preview** — instantly see how your content will look
+- **✏️ Live editing** — update stage content without reloading
 
-### 🎮 Удобный интерфейс
+### 🎮 User-Friendly Interface
 
-- **👁️ Значок "Глаза"** — быстрый просмотр описания каждого этапа
-- **📱 Интуитивная навигация** — от первого до последнего этапа
-- **💾 Автоматическое сохранение** — ваши сценарии всегда в безопасности
-
----
-
-## 🛠️ Технологии
-
-- **🖥️ WPF** — современный desktop-интерфейс
-- **🎯 Prism** — архитектура и паттерны для масштабируемости
-- **🎨 HandyControl** — красивые и современные UI-компоненты
-- **📝 MdXaml** — рендеринг Markdown в реальном времени
-- **🔄 .NET Framework 4.8.1** — стабильность и производительность
+- **👁️ "Eye" icon** — quickly preview each stage description
+- **📱 Intuitive navigation** — from the first to the last stage
+- **💾 Auto-save** — your scenarios are always محفوظ
 
 ---
 
-## 📦 Установка и запуск
+## 🛠️ Technologies
 
-1. **📥 Скачайте последнюю версию** приложения
-2. **🚀 Запустите** `Herodotus.exe`
-3. **🎉 Начните создавать** свои первые сценарии!
-
----
-
-## 🎮 Как использовать?
-
-### Создание сценария:
-
-1. Нажмите **"Создать сценарий"** ➕
-2. Введите название и описание 🏷️
-3. Добавьте нужное количество этапов 📈
-4. Для каждого этапа напишите Markdown-описание ✍️
-5. Сохраните — готово! 💾
-
-### Просмотр сценария:
-
-1. Выберите сценарий из списка 📚
-2. Все этапы появятся в интерфейсе 👀
-3. Нажимайте на **"глаз"** для просмотра описания каждого этапа
-4. Используйте вкладку редактирования для внесения изменений ✏️
+- **🖥️ WPF** — modern desktop interface
+- **🎯 Prism** — architecture and patterns for scalability
+- **🎨 HandyControl** — beautiful and modern UI components
+- **📝 MdXaml** — real-time Markdown rendering
+- **🔄 .NET Framework 4.8.1** — stability and performance
 
 ---
 
-## 💡 Идеи для применения
+## 📦 Installation and Launch
 
-- **🎬 Демонстрации продуктов** — пошаговые презентации новых фич
-- **📚 Обучающие материалы** — структурированные уроки и инструкции
-- **💼 Бизнес-презентации** — логичные и последовательные выступления
-- **🎮 Гайды и туториалы** — подробные руководства для пользователей
-- **💡 Мозговые штурмы** — организация и структурирование идей
+1. **📥 Download the latest version** of the application
+2. **🚀 Run** `Herodotus.exe`
+3. **🎉 Start creating** your first scenarios!
 
 ---
 
-## 🎨 Почему Herodotus?
+## 🎮 How to Use?
 
-| Особенность        | Преимущество                                               |
-| ------------------ | ---------------------------------------------------------- |
-| **🎯 Простота**    | Интуитивный интерфейс без лишних сложностей                |
-| **📝 Гибкость**    | Неограниченное количество этапов и Markdown-форматирование |
-| **👀 Наглядность** | Предпросмотр описаний в реальном времени                   |
-| **💾 Надёжность**  | Все данные сохраняются локально                            |
+### Creating a scenario:
+
+1. Click **"Create Scenario"** ➕
+2. Enter a title and description 🏷️
+3. Add the required number of stages 📈
+4. Write a Markdown description for each stage ✍️
+5. Save — done! 💾
+
+### Viewing a scenario:
+
+1. Select a scenario from the list 📚
+2. All stages will appear in the interface 👀
+3. Click the **"eye"** to view each stage description
+4. Use the edit tab to make changes ✏️
 
 ---
 
-## 🤝 Обратная связь
+## 💡 Use Cases
 
-Нашли баг? 🐛 Есть идея для улучшения? 💡
-Буду рад вашим отзывам и предложениям!
+- **🎬 Product demos** — step-by-step feature presentations
+- **📚 Educational materials** — structured lessons and guides
+- **💼 Business presentations** — logical and consistent storytelling
+- **🎮 Guides and tutorials** — detailed user instructions
+- **💡 Brainstorming** — organizing and structuring ideas
 
 ---
 
-_С Herodotus ваши идеи обретают структуру и ясность!_ ✨📖
+## 🎨 Why Herodotus?
+
+| Feature            | Benefit                                            |
+| ------------------ | -------------------------------------------------- |
+| **🎯 Simplicity**  | Intuitive interface without unnecessary complexity |
+| **📝 Flexibility** | Unlimited stages and Markdown formatting           |
+| **👀 Clarity**     | Real-time preview of descriptions                  |
+| **💾 Reliability** | All data is stored locally                         |
+
+---
+
+## 🤝 Feedback
+
+Found a bug? 🐛 Have an idea for improvement? 💡  
+I’d be glad to hear your feedback and suggestions!
+
+---
+
+_Herodotus brings structure and clarity to your ideas!_ ✨📖
 
 <p align="center">✨Dvurechensky✨</p>
